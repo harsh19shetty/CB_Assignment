@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+.employee__info{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.employee__infoInput{
+    width: 100% !important;
+    margin-left: 0px !important;
+}
+.employee__info > Button {
+    /* width: 100% !important; */
+    /* margin-left: 0px !important; */
+}
+.employee__display{
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+}
+.employee__displayPaper{
+    width: 100% !important;
+}
+.employee__displayFirstLine{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.employee__displayicon{
+    cursor: pointer;
+}

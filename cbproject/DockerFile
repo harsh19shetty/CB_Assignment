@@ -1,0 +1,7 @@
+FROM eclipse-temurin:17
+
+WORKDIR /app
+
+COPY target/cbproject-0.0.1-SNAPSHOT.jar /app/cbproject-customer.jar
+
+ENTRYPOINT ["java","-jar","cbproject-customer.jar"]
